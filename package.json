@@ -1,0 +1,18 @@
+{
+  "name": "multispaceshoot",
+  "version": "1.0.0",
+  "description": "A multiplayer space shooting game",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "GNVageesh <vageeshgn2005@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "ably": "^1.2.9",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "p2": "^0.7.1"
+  }
+}
